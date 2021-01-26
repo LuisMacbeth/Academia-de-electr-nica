@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:700');
+
+*{
+    box-sizing: border-box;
+}
+
+/*--------Estilos base---------------------------*/
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.column {
+    width: 1000%;
+}
+
+
+
+
+/*--------Estilos Responsive---------------------------*/
+
+@media screen and (min-width:480px) {
+   
+    .column--50 {
+        width: 49%;
+    }
+
+   .column--50--25 {
+        width: 49%;
+    }
+
+    .column--33 {
+        width: 32%;
+    }
+
+    .main__about__description .column:nth-child(2) {
+        padding-left: 20px;
+        font-size: 0.9em;
+    }
+
+}
+@media screen and (min-width:768px) {
+ 
+  .main__about__description {
+    margin-top: 30px;
+  }
+  .main__about__description .column--50:nth-child(2){
+    font-size: 1em;
+  }
+  .main__about__description .column--50:nth-child(2).column__txt {
+    line-height: 30px;
+  }
+  .column--50--25 {
+    width: 24.5%;
+  }
+  .column__title {
+    font-size: 1em;
+  }
+  .group__title {
+    font-size: 2.2em;
+  }
+}
+
+@media screen and (min-width:1024px) {
+
+ 
+    .main__about__description .column--50:nth-child(2).column__txt {
+      line-height: 45px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+  .container {
+    width: 1600px;
+  }
+  .main__about__description .column:nth-child(1) img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+}

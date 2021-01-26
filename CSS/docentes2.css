@@ -1,0 +1,105 @@
+
+.our-team {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.our-team .container--flex {
+ align-items: flex-start;
+
+}
+
+.bienvenidos {
+    background:  #212121;
+    width: 100%;
+    height: auto;
+}
+
+.bienvenidos p{
+    padding: 20px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    
+}
+.bienvenidos h2{
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    
+}
+
+ .bienvenidos p blaquote {
+    font-size:30px;
+    color:white;
+    text-align: center;
+}
+
+ .bienvenidos p cite{
+    color:white;
+    text-align:right;
+    
+}
+.section__titulo{
+transform: translateY(100%);
+    
+}
+
+.group__title{
+     text-align: center;
+    font-size: 50px;
+    color: #006400;
+}
+
+
+.our-team__img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* para que no se distorcionen las imagenes*/
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  
+  
+}
+
+
+
+@media screen and (min-width:480px){
+  .our-team__img {
+    width: 150px;
+    height: 150px;
+  }
+.our-team__txt {
+  padding: 10px;
+  text-align: center;
+ font-size: 0.7em;
+}
+}
+
+@media screen and (min-width:768px){
+  .our-team__img {
+    width: 220px;
+    height: 220px;
+  }
+ .our-team__txt {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+}
+
+@media screen and (min-width:1024px){
+  .our-team__img {
+    width: 310px;
+    height: 310px;
+  }
+}
+@media screen and (min-width:1600px){
+  .our-team__img {
+    width: 420px;
+    height: 420px;
+  }
+}
